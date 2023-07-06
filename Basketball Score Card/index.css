@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    background: url(basket.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+.container {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    height: 400px;
+    background-color:cyan;
+    margin: 0 auto;
+}
+
+.team {
+    
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.score {
+    margin-top: -20px;
+    background-color: black;
+    width: 110px;
+    height: 100px;
+    color:red;
+    text-align: center;
+    padding: 10px;
+    font-size: 75px;
+  
+}
+
+.btn {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+    justify-content: space-around;
+    
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -40px;
+   
+
+}
+.scores{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:50px;
+    margin-right:auto;
+    padding: 75px;
+}
+
+.btn:hover{
+    background-color: red;
+    color: blue;
+}
+
+.team:hover {
+    color:gold;
+}
